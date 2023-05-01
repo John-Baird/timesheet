@@ -1,0 +1,26 @@
+$size: 35px;
+
+.material-icons{
+    font-size: $size;
+}
+
+.mat-icon {
+    width: $size;
+    height: $size;
+    
+}
+
+.mat-icon-button i, .mat-icon-button .mat-icon {
+    line-height: 10px;
+}
+
+div {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.mat-mdc-icon-button.mat-mdc-button-base {
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+}

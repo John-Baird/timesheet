@@ -1,0 +1,21 @@
+mat-card {
+    width: 50%;
+    margin: auto;
+}
+mat-list-item {
+    background-color: #ffffff;
+    border-radius: 5px;
+    cursor: default;
+    transition: .2s;
+}
+mat-list-item:hover {
+    background-color: #E0E0E0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+.main-container {
+    display: flex;
+    align-items: center;
+    height: calc(100% - 64px)
+}
